@@ -4,9 +4,7 @@ import UIKit
 class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
     let tableView = UITableView()
-    let simpsonsNames = [String]()
-    let simpsonsImages = [UIImage]()
-
+    
     
     let homer = Simpsons(name: "Homer",job: "homer job",image: UIImage(named: "homer")!)
     let bart = Simpsons(name: "Bart",job: "bart job",image: UIImage(named: "bart")!)
